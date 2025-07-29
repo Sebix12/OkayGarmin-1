@@ -1,10 +1,12 @@
 import speech_recognition as sr
+import simpleaudio as sa
 import keyboard
 import json
 
 manifest = {}
 
 def clip():
+    sa.WaveObject.from_wave_file("./sfx/garmin.wav").play()
     keyboard.send(manifest["medal_keybind"])
 
 def recognizer():
