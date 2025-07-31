@@ -2,5 +2,5 @@
     "version": "1.0.0",
     "pattern": ["ok garmin", "okay garmin", "video speichern"],
     "medal_keybind": "f8",
-    "play_experimental_sound": false
+    "play_experimental_sound": true
 }
